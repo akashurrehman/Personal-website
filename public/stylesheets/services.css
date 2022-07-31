@@ -1,0 +1,29 @@
+
+#service{
+    background-color: #112240;
+    color: rgb(202, 201, 202);
+    height: 51em;
+    font-family: Rubik,sans-serif;
+}
+#service h4{
+    text-transform: uppercase;
+}
+#service h2{
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+#service .card{
+    height: 15rem;
+    color: #243d68;
+    text-align: center;
+}
+#service .card h5{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-weight: bold;
+}
+#service .card p{
+    font-family: Rubik,sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}

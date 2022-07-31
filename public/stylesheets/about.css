@@ -1,0 +1,109 @@
+#aboutstart{
+    vertical-align: middle; 
+    height:59rem;
+    line-height:35px;
+}
+.vl{
+border-left: 4px solid orange;
+  height: 80px;
+  position: absolute;
+  margin-left: -3px;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-left: 1.2rem;
+  top: 5;
+}
+.para2{
+    margin-top: 9.9em;
+}
+#about{
+  background-color: #0A192F;
+  color: rgb(245, 245, 245);
+}
+#about h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+
+}
+#about h4{
+  color: #e2e1e1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none solid rgb(255, 255, 255);
+}
+#about h2{
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#about h5{
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none solid rgb(255, 255, 255);
+}
+#about .card{
+  background-color: #112240;
+  color: #ffffff;
+  border: 1px solid #a09f9f;
+}
+#about .card h5{
+  color: #FFB400;
+  font-family: 'Poppins, sans-serif';
+  font-weight: 700;
+  font-size: 48px;
+  text-align: left;
+}
+#about .yellowme{
+  color:#FFB400;
+}
+#bar .container{
+  width: 100%;
+  background-color: #ddd;
+}
+#bar .skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+#bar .html{
+  width: 90%; background-color: #FFB400;
+}
+#bar .css{
+  width: 95%; background-color: #FFB400;
+}
+#bar .js{
+  width: 80%; background-color: #FFB400;
+}
+#bar .bs{
+  width: 90%; background-color: #FFB400;
+}
+#skill2 .container{
+  width: 100%;
+  background-color: #ddd;
+}
+#skill2 .skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+#skill2 .react{
+  width: 70%; background-color: #FFB400;
+}
+#skill2 .node{
+  width: 70%; background-color: #FFB400;
+}
+#skill2 .python{
+  width: 65%; background-color: #FFB400;
+}
+#skill2 .jq{
+  width: 80%; background-color: #FFB400;
+}

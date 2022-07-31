@@ -1,0 +1,43 @@
+#services2{
+  background-color: #0A192F;
+}
+#services2 h1{
+  color: #CCD6F6;
+  width: 80%;
+  font-size: 2.8em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  text-transform: capitalize;
+  padding-left: 0.2em;
+}
+.card{
+  height: 20em;
+}
+#card h4{
+  color: #C1CBEB;
+  font: 0.8em sans-serif;
+  padding-top: 3em;
+}
+#services2 ul li{
+  float: right;
+  padding-left: 1.5rem;
+  color: #CCD6F6;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#card{
+  background-color: #0A192F;
+}
+#card .card{
+  align-items: flex-start;
+  justify-content: left;
+  background-color: #112240;
+}
+.card h3{
+  color: #C1CBEB;
+}
+.card p{
+  color: #A0ABCA;
+}

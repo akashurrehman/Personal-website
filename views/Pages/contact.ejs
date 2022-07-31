@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <%- include('../partials/head'); %>
+    </head>
+<body>
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main>
+<div class="container-fluid px-0">    
+    <div class="jumbotron my-5 py-5 px-5 h-100" id="aboutstart">
+        <h1 class="pl-lg-4 mt-5 pt-5">
+            Contact Us
+        </h1>
+        <h2 class="pl-lg-4 mt-2 pb-5">
+            Home/Contact
+        </h2>
+    </div>
+</div>
+<div class="container-fluid">    
+    <div class="row">
+        <div class="col-12">
+            <h2>
+                Get in Touch
+            </h2>
+        </div>
+    </div>
+    <div class="row" id="btncheck">
+        <div class="col-lg-6 col-sm-12">
+            <div class="container-fluid">
+                <form action="/message" method="post" role="form">
+                    <div class="form-group">
+                        <label for="inputName" class="col-sm-12 col-form-label">Full Name</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" name="name" id="inputName" placeholder="">
+                        </div>
+                        <label for="inputName" class="col-sm-12 col-form-label">Email Address</label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" name="email" id="inputemail" placeholder="">
+                        </div>
+                        <div class="col-sm-12 mt-4">
+                            <textarea name="text" id="textid" cols="50" rows="5" placeholder="Enter message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <button id="btnid" type="submit" class="btn btn-block btn-danger">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <h1>
+                Shah Taj Sugar Mill Colony
+            </h1>
+            <h2>
+                Mandi Bahauddin
+            </h2>
+
+            <h1>
+                +92-3494611282
+            </h1>
+            <h2>
+
+            </h2>
+            <h1>
+                hireme@gmail.com
+            </h1>
+            <h2>
+                send us your query at any time!
+            </h2>
+        </div>
+    </div>
+</div>
+
+</main>
+
+<%- include('../partials/footer'); %>
+
+</body>
+</html>

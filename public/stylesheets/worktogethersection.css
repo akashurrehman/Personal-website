@@ -1,0 +1,25 @@
+#work h2{
+  color: #000A2D;
+  font-family: 'Rufina,serif';
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  font-style: normal;
+}
+#work .col-12{
+  padding-left: 2em;
+}
+#work p{
+  color: #10285D;
+  font-family: 'Rubik,sans-serif';
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  padding-top: 1.5em;
+  margin:0px 0px 40px;
+  width: 90%;
+}
+button{
+    block-size: 10px;
+}

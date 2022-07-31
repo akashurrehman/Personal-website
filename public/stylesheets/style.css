@@ -1,0 +1,185 @@
+#navbarSupportedContent li a{
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  text-decoration:none solid rgb(236, 91, 83);
+  text-transform: capitalize;
+}
+body{
+  max-width:100% ;
+  font-family: 'Open Sans, sans-serif';
+}
+#intro h4{
+  color:#EA5B74;
+  font-size: 1.4rem;
+  padding-bottom:1.7rem;
+  font-weight: 200;
+  font-family: 'Open Sans, sans-serif';
+}
+#intro h2{
+  color:#002D5B;
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: 'Open Sans, sans-serif';
+}
+.well img{
+  margin-top: 3.5em;
+}
+#intro p{
+  color: rgb(35, 30, 39);
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 80%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
+  font-family: 'Open Sans, sans-serif';
+}
+#intro{
+    vertical-align: middle; 
+    height:42rem;
+    line-height:35px;
+}
+#navbarSupportedContent ul li{
+  padding-left: 15px;
+  margin-top: 1.0rem;
+  margin-left: 35px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: 'Open Sans, sans-serif';
+}
+#brand li{
+  list-style-type: none;
+}
+#brand .a a{
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Open Sans, sans-serif';
+  font-size: 2.5rem;
+  color: #202020;
+  padding-left: 2.4rem;
+}
+#para h2{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color:rgb(51, 51, 51);
+}
+#para .para1{
+  padding-top: 1.2rem;
+  font-family: 'Open Sans';
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color:rgb(51, 51, 51);
+}
+#disc h2{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 2.9rem;
+  width: 70%;
+  padding-left: 1.5rem;
+  text-transform: capitalize;
+  color:rgb(51, 51, 51);
+}
+#disc h4{
+  font-style: oblique;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 1.9rem;
+  width: 70%;
+  padding-top: 2.9rem;
+  padding-left: 1.5rem;
+  text-transform: capitalize;
+  color:rgb(51, 51, 51);
+}
+#disc a{
+  font-size: 2.9em;
+  font-family: 'Open Sans,sans-serif';
+  color: #202020;
+  text-decoration: underline;
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+#services1{
+  width: 100%;
+  background-color: #0A192F;
+  margin: 0%;
+  opacity: 0.1em;
+  padding-left: 2.4em;
+}
+#services1 h2{
+  text-align: left;
+  font-size: 44px;
+  width: 40%;
+  font-weight: 600;
+  margin: 0px 0px 8px;
+  padding-left: 1em;
+  color: #CCD6F6;
+}
+#services1 .card{
+  height: 20em;
+  margin-bottom: 9em;
+}
+#services1 .card h3{
+  padding-top: 1.2rem;
+  font-size: 1.9em;
+  color: #10285D;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-bottom: 1.2em;
+}
+#services1 .card p{
+  color: #002D5B;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+textarea {
+  border:1px solid #d1c8c8;
+   resize: none;
+   width: 100%;
+   padding-left: 0.9rem;
+}
+#feedback{
+  background-color: #0A192F;
+  color: #CCD6F6;
+}
+#feedback h2{
+  color: #CCD6F6;
+  font-family: Rufina, serif;
+  margin:0px 0px 8px;
+  font-weight: 600;
+  width: 50%;
+  font-size: 48px;
+  font-style: normal;
+  text-align: left;
+  text-decoration:none solid rgb(0, 10, 45);
+}
+#feedback .card{
+  height: 16em;
+}
+#feedback .card h4{
+  color: #EC5B53;
+  font-family: 'Rufina, serif';
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+#feedback .card p{
+  color: #10285D;
+  font-family: 'Rubik,sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
