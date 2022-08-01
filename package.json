@@ -6,6 +6,10 @@
     "heroku-postbuild": "npm install && npm start",
     "start": "node ./bin/www"
   },
+  "engines": {
+    "npm": "6.5.0",
+    "node":"16.14.2"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
