@@ -6,7 +6,7 @@ var logger = require('morgan');
 var mongoose=require("mongoose")
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const { config } = require('process');
+var config = require('config');
 
 var app = express();
 
@@ -38,7 +38,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-mongoose.connect("mongodb+srv://akashurrehman123:WgE7Wtk79FCL7QIN@cluster0.se4lf.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true })
+
+mongoose.connect(config.get("db"), { useNewUrlParser: true })
     .then(() => console.log("Connected to MongoDB...."))
     .catch((error) => console.log(error.message));
 module.exports = app;
